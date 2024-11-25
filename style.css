@@ -1,0 +1,56 @@
+body {
+    padding:0;
+    margin:0;
+   
+}
+
+img {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.sketchbook {
+    width:100%;
+    height:auto;
+}
+
+.obliterate {
+    
+    width:50%;
+    height:auto;
+}
+ .button {
+    width: 50%;
+    height: auto;
+    opacity: 0.1;
+        transition: 0.1s;
+        display: inline-block;
+            
+    }
+  
+  
+    .button:hover  { 
+        opacity: 0.65;
+    }
+   .fishbutton
+ {
+
+    width: 50%;
+    height: auto;
+    opacity: 0.4;
+        transition: 0.1s;
+       
+            
+    }
+   .fishbutton:hover
+   {opacity: 1.0;}
+
+    .fishesbutton  { 
+        opacity: 0.4;
+    }
+
+    .fishesbutton:hover  { 
+        opacity: 0.9;
+    }
